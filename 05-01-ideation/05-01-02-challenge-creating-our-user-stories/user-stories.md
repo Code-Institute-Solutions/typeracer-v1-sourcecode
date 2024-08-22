@@ -75,7 +75,7 @@ As a user, I want to see my typing speed calculated in Words Per Minute (WPM) wh
 **Acceptance Criteria:**
 
 - [ ] WPM is calculated based on the number of correctly typed words and elapsed time.
-- [ ] The WPM result is displayed immediately after completing the test.
+- [ ] The difficulty level and WPM result is displayed immediately after completing the test.
 
 **Tasks:**
 
