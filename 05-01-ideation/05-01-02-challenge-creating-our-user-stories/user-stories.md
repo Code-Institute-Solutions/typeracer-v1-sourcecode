@@ -74,13 +74,13 @@ As a user, I want to see my typing speed calculated in Words Per Minute (WPM) wh
 
 **Acceptance Criteria:**
 
-- [ ] WPM is calculated based on the number of typed words and elapsed time.
+- [ ] WPM is calculated based on the number of correctly typed words and elapsed time.
 - [ ] The WPM result is displayed immediately after completing the test.
 
 **Tasks:**
 
 - [ ] Create a results area to display the level, time and Words Per Minute (WPM) results to the user
-- [ ] Implement functionality to calculate the number typed WPM.
+- [ ] Implement functionality to calculate the number of correctly typed WPM.
 - [ ] Display the WPM result immediately after the user completes the test.
 
 ### Retry button (WPM) (should-have)
