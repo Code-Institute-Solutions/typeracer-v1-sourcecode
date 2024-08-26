@@ -97,6 +97,6 @@ document.addEventListener('DOMContentLoaded', function () {
     startButton.addEventListener('click', startTest);
     stopButton.addEventListener('click', stopTest);
 
-    // Initialize with a random text from the default difficulty level
+    // Initialise with a random text from the default difficulty level
     updateSampleText();
 });
