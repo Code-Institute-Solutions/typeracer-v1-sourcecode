@@ -94,7 +94,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function updateTypingFeedback() {
-        console.log('input event fired');
         const sampleText = sampleTextDiv.textContent.trim();
         const userText = userInput.value.trim();
         const sampleWords = sampleText.split(" ");
