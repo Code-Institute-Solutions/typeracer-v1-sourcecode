@@ -104,10 +104,8 @@ document.addEventListener('DOMContentLoaded', function () {
         for (let i = 0; i < sampleWords.length; i++) {
             if (userWords[i] === sampleWords[i]) {
                 feedbackHTML += `<span class="correct">${sampleWords[i]}</span> `;
-                console.log('correct');
             } else if (userWords[i]) {
                 feedbackHTML += `<span class="incorrect">${sampleWords[i]}</span> `;
-                console.log('incorrect');
             } else {
                 feedbackHTML += `<span>${sampleWords[i]}</span> `;
             }
