@@ -89,7 +89,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!testStarted) {
             startTime = new Date();
             testStarted = true;
-            stopButton.disabled = false;
             retryButton.disabled = true;
         }
 
